@@ -22,6 +22,10 @@ img{
     margin: 0px;
 }
 
-h1, ul, p{
+h1, ul, p,h2,h3,h4{
     margin: 0px;
+}
+
+img[src$=".jpg"]{
+    border-radius: 4px;
 }
