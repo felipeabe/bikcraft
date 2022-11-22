@@ -1,3 +1,12 @@
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
 .botao{
     display: inline-block;
     background: linear-gradient(#FFBF00 , #F2A50C );
@@ -19,4 +28,23 @@
     padding: 12px 16px;
     font-size: 16px;
     }
+}
+
+.link{
+    display: inline-block;
+    color: var(--cor-p1);
+    font: 500 1.5rem/1.5 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.link::after{
+    content: "";
+    width: 100%;
+    display: block;
+    height: 4px;
+    background-color: currentColor;
+}
+
+.link:hover{
+    color: var(--cor-0);
 }
