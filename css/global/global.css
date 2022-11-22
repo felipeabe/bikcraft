@@ -29,3 +29,7 @@ h1, ul, p,h2,h3,h4{
 img[src$=".jpg"]{
     border-radius: 4px;
 }
+
+blockquote{
+    margin: 0;
+}
