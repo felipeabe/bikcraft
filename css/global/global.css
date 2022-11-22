@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+    font-family: Arial;
+    height: 2000px;
+    color: #111111;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, ul, p{
+    margin: 0px;
+}
