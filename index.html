@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
     <title>Bikcraft</title>
 
@@ -14,7 +15,9 @@
 <body>
     <header class="header-bg">
         <div class="header container">
-            <a href="./"><img src="./img/bikcraft.svg" alt="bikcraft"></a>
+            <a href="./">
+                <img src="./img/bikcraft.svg" widht="136" height="32" alt="bikcraft">
+            </a>
             <nav aria-label="primaria">
                 <ul class="header-menu cor-0 font-1-m">
                     <li><a href="./bicicletas.html">Bicicletas</a></li>
@@ -33,8 +36,12 @@
                     Explore o mundo na sua velocidade com a Bikcraft.</p>
                 <a href="./bicicletas.html" class="botao">Escolha a sua</a>
             </div>
-            <div class="introducao-imagem">
+            <picture>
+                <source media="(max-width:800px)" srcset="./img/bicicletas/nimbus.jpg">
                 <img src="./img/fotos/introducao.jpg" alt="bicicleta elétrica preta">
+            </picture>
+            <div class="introducao-imagem">
+                
             </div>
             
         </div>
