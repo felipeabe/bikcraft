@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="css/style.min.css" as="style">
+    <link rel="icon" href="./favicon.svg" type="img/svg+xml">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Bikcraft</title>
 
 </head>
 <body>
-    <header class="header-bg">
+    <header class="header-bg" >
         <div class="header container">
             <a href="./">
                 <img src="./img/bikcraft.svg" widht="136" height="32" alt="bikcraft">
@@ -31,12 +32,12 @@
     <main class="introducao-bg">
         <div class="introducao container">
             <div class="introducao-conteudo">
-                <h1 class="cor-0 font-1-xxl">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-                <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
+                <h1 class="cor-0 font-1-xxl fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
                     Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a href="./bicicletas.html" class="botao">Escolha a sua</a>
+                <a href="./bicicletas.html" class="botao fadeInDown" data-anime="600">Escolha a sua</a>
             </div>
-            <picture>
+            <picture data-anime="800" class="fadeInDown">
                 <source media="(max-width:800px)" srcset="./img/bicicletas/nimbus.jpg">
                 <img src="./img/fotos/introducao.jpg" alt="bicicleta elétrica preta">
             </picture>
@@ -214,7 +215,8 @@
     </footer>
 
 
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
     
-
 </body>
 </html>
